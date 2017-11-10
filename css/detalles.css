@@ -1,0 +1,13 @@
+#content{
+	width: 1000px;
+	height:500px;
+	float: left;
+	background-color: rgba(110,0,0,0.3);
+}
+
+#comments{
+	width: 1000px;
+	height:250px;
+	float: left;
+	background-color: transparent;
+}
