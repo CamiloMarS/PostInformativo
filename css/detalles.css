@@ -1,8 +1,7 @@
 #content{
 	width: 1000px;
-	height:500px;
+	height:415px;
 	float: left;
-	background-color: rgba(110,0,0,0.3);
 }
 
 #comments{
@@ -10,4 +9,63 @@
 	height:250px;
 	float: left;
 	background-color: transparent;
+	border-style: solid;
+	border-width:1px;
+}
+
+#TituloPost{
+	width:1000px;
+	height:50px;
+	text-align: center;
+}
+
+#TituloPost p{
+	font-size:40px;
+	font-style: normal;
+	font-weight: bold;
+	font-family: helvetica;
+	color:rgba(0,0,0,.7);
+	font-stretch:extra-expanded;
+	text-transform: capitalize;
+	text-shadow:1px 2px 1px #000;
+}
+
+#contentLeft{
+	width:370px;
+	height:100px;
+	float: left;
+	background-color:transparent;
+	border-bottom-width: 2px;
+	border-bottom-style: ridge;
+	border-bottom-color:blue;
+}
+
+#contentCenter{
+	width:260px;
+	height:100px;
+	float: left;
+	background-color:transparent;
+	border-bottom-width: 2px;
+	border-bottom-style: ridge;
+	border-bottom-color:blue;
+}
+
+#contentRight{
+	width:370px;
+	height:100px;
+	float: left;
+	background-color:transparent;
+	border-bottom-width: 2px;
+	border-bottom-style: ridge;
+	border-bottom-color:blue;
+}
+#contenidoWidth{
+	width:1000px;
+	height:350px;
+	float: left;
+	background-color:transparent;
+}
+#contenidoWidth p{
+	text-align: justify;
+	font-style: oblique;
 }
