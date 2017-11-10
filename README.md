@@ -1,4 +1,4 @@
 	Proyecto para prácticar Git y GitHub.
 	• Susana Benitez
-	• Alexis Roblebles
+	• Alexis Robles
 	• Camilo Salazar
