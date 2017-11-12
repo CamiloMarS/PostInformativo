@@ -1,0 +1,75 @@
+main{
+	background-image:url(http://www.nhm.ac.uk/content/dam/nhmwww/visit/Exhibitions/art-of-british-natural-history/magpie-illustration-keulemans-two-column.jpg);
+	background-size: cover;
+}
+.content{
+	width: 302px;
+	height:650px;
+	background-color:rgba(0,0,0,0.3);
+	float: left;
+}
+
+.centerContent{
+	padding-top:10px;
+	width: 396px;
+	height:650px;
+	float: left;
+	background-color:rgba(240,240,240,0.4);
+}
+
+.formulario{
+	margin-top:10px;
+	text-align: center;
+	vertical-align: center;
+}
+
+label{
+	font-size:20px;
+	font-family: fantasy;
+	color:rgba(0,0,0,0.6);
+}
+
+.centerContent h1{
+	font-size:30px;
+	text-shadow:0px 1px 0px;
+	text-decoration: underline;
+}
+
+.dataEntrada{
+	padding:3px;
+	width:80%;
+	height:35px;
+	font-size:16px;
+}
+
+.dataEntradaA{	
+	width:80%;
+	height:100px;
+	font-size:16px;
+	max-height:100px;
+	max-width:80%;
+	min-width:80%;
+	min-height:100px;
+}
+
+textarea:hover{
+	border-color: green;
+	border-style:solid;
+	border-width:2px;
+}
+input:hover{
+	border-color: green;
+	border-style:solid;
+	border-width:2px;
+}
+
+button{
+	margin-top:10px;
+	width:100px;
+	height:30px;
+	border-style: none;
+	font-size:16px;
+	font-weight:bold;
+	color:rgba(0,0,0,0.8);
+	background-color:rgba(0,0,255,0.6);
+}

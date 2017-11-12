@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>New Post</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/form.css">
+</head>
+
+<body>
+	<header>
+		<section id="logo">
+			<img src="https://democdn3.mythemeshop.com/playbook/files/2013/04/logo.png" width="200" height="100">
+		</section>
+		<section id="image">
+			<img src="http://images6.fanpop.com/image/forum/208000/208236_1386394837319_full.png" width="800" height="100">
+		</section>
+	</header>
+	<nav>
+			<ul>
+			<li><a href="../Index.html">Home</a></li>
+			<li><a href="#">Notice</a></li>
+			<li><a href="https://www.google.com.mx">Google</a></li>
+			<li><a href="https://www.youtube.com">YouTube</a></li>
+			<li><a href="https://www.google.com.mx/maps">Google maps</a></li>
+			<li><a href="#" onclick="alert('Página hecha por el equipo 2!!!')">Acerca de</a></li>
+		</ul>	</nav>
+	<main>
+		<section class="content"></section>
+		<section class="centerContent">
+			<center><h1>Agregar nuevo post</h1></center>
+			<form class="formulario" action="#">
+				<label for="titulo">Título:</label><br/>
+				<input  class="dataEntrada" type="text" name="titulo" id="titulo" placeholder="Título del post"><br/>
+				<label for="descripcion">Descripción: </label><br/>
+				<textarea class="dataEntradaA"  id="descripcion" name="descripcion" placeholder="¿De que trata el post?"></textarea><br/>
+				<label for="imagen">Url imagen: </label><br/>
+				<input  class="dataEntrada" type="text" name="imagen" id="imagen" placeholder="Pegar url de imagen"><br/>
+				<label for="contenido">Contenido: </label><br/>
+				<textarea  class="dataEntradaA" id="contenido" name="contenido" placeholder="Contenido del post"></textarea><br/>
+				<button id="publicar">Publicar</button>
+			</form>
+		</section>
+		<section class="content"></section>
+	</main>
+</body>
+</html>
