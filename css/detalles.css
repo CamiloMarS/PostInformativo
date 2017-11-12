@@ -37,7 +37,7 @@
 	background-color:transparent;
 	border-bottom-width: 2px;
 	border-bottom-style: ridge;
-	border-bottom-color:blue;
+	border-bottom-color:blue;	
 }
 
 #contentCenter{
@@ -68,4 +68,15 @@
 #contenidoWidth p{
 	text-align: justify;
 	font-style: oblique;
+	padding:10px;
+}
+
+.detailMain{
+	/*background-color: red;*/
+	width: 331px;
+	height:260px;
+	float: left;
+	border-color:black;
+	border-style: solid;
+	border-width: 1px;
 }
